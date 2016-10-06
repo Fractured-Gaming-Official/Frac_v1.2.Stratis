@@ -1,0 +1,29 @@
+AI simulation made by Otto for exile remade for wasteland by Isaac Harding
+You are open to use this but please let me know, TS: 142.4.215.124 :)
+Also if you need help with your servers let me know I am glad to help again TS above.
+Part of the scripts are delete animals scripts slightly improving client side FPS
+Install for normal server without headless client
+
+Add the cache folder to your main mission folder then add 
+
+[1000,-1,false,100,1000,1000]execvm "cache\main.sqf";
+
+[
+1000   //At what distance is AI cached/uncached?
+,-1    //If the FPS drops below this number, then prevent AI from uncaching.
+,true  //  true/false turns debug reports/box on off
+,100   //At what distance should empty cars be cached?
+,1000  //At what distance should empty aircraft be cached?
+,1000  //At what distance should empty boats be cached?
+]
+
+To your main init.sqf file then pack and reboot the server and enjoy a lag free server.
+
+For servers with headless client do the above however go into the main.sqf file and comment back in the following code beware this is experimental at this time so just keep that in mind ;)
+
+/*
+	// HC client enable this part to use HC or leave it as is for all clients to run HC is not fully tested in this script
+
+	hclientname = "HC"; //Headless Client name
+    if(!hasInterface && !isServer && name player != hclientname) exitwith {}; 
+*/
