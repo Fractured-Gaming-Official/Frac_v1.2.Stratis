@@ -859,10 +859,10 @@ helicoptersArray = compileFinal str
 	["AH-9 Pawnee", "B_Heli_Light_01_armed_F", 40000, "vehicle"], // Armed AH-6
 	["PO-30 Orca (Armed, Black)", "O_Heli_Light_02_v2_F", 50000, "vehicle"], // Armed Ka-60 with orca paintjob
 	["PO-30 Orca (Armed, Hex)", "O_Heli_Light_02_F", 50000, "vehicle"], // Armed Ka-60
-	["WY-55 Hellcat (Armed)", "I_Heli_light_03_F", 60000, "vehicle"] // Armed AW159
-	//["AH-99 Blackfoot", "B_Heli_Attack_01_F", 45000, "vehicle"], // RAH-66 with gunner
-	//["Mi-48 Kajman (Hex)", "O_Heli_Attack_02_F", 50000, "vehicle"], // Mi-28 with gunner
-	//["Mi-48 Kajman (Black)", "O_Heli_Attack_02_black_F", 50000, "vehicle"] // Mi-28 with gunner (black camo)
+	["WY-55 Hellcat (Armed)", "I_Heli_light_03_F", 60000, "vehicle"], // Armed AW159
+	["AH-99 Blackfoot", "B_Heli_Attack_01_F", 45000, "vehicle"], // RAH-66 with gunner
+	["Mi-48 Kajman (Hex)", "O_Heli_Attack_02_F", 50000, "vehicle"], // Mi-28 with gunner
+	["Mi-48 Kajman (Black)", "O_Heli_Attack_02_black_F", 50000, "vehicle"] // Mi-28 with gunner (black camo)
 ];
 
 planesArray = compileFinal str
